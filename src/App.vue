@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
-    <!-- <router-view /> -->
+    <!-- 路由的出口 -->
+    <p>黑马</p>
+     
+    <router-view/>
   </div>
 </template>
 
@@ -11,5 +13,4 @@ export default {
 }
 </script>
 
-<style scoped ></style>
-
+<style lang="less"></style>
